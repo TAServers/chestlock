@@ -1,4 +1,4 @@
-print("ChestLock Loading...")
+minetest.log("ChestLock loading...")
 
 local protectedBlocks = {
 	"mcl_chests:chest",
@@ -37,7 +37,7 @@ local signs = {
 
 chestlock = {}
 chestlock.message = function(name, str)
-	minetest.chat_send_player(name, minetest.colorize("#CC5000", "[ChestLock] " .. str))
+	minetest.chat_send_player(name, minetest.colorize("#FFAA00", "[ChestLock] " .. str))
 end
 string.startswith = function(self, str)
 	return self:find("^" .. tostring(str)) ~= nil
