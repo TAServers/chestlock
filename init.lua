@@ -33,6 +33,8 @@ local signs = {
 	"mcl_signs:wall_sign_mangrove_wood",
 	"mcl_signs:wall_sign_warped_hyphae_wood",
 	"mcl_signs:wall_sign_crimson_hyphae_wood",
+	"mcl_signs:wall_sign_bamboo",
+	"mcl_signs:wall_sign_cherrywood",
 }
 
 chestlock = {}
